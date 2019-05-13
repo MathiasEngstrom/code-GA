@@ -12,5 +12,5 @@ module load samtools
 for file in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/*
 do
 	output=$(basename $file)
-	samtools sort $file/accepted_hits.bam -o /home/maen5548/genome-analysis-2019/data/derived-data/transcriptome_alignment_sorted/accepted_hits_sorted_2019-04-24_$output.bam
+	samtools sort $file/accepted_hits.bam -o /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment_sorted/accepted_hits_sorted_2019-04-24_$output.bam
 done
