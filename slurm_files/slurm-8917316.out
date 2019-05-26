@@ -1,0 +1,326 @@
+bowtie not loaded, will load bowtie 
+bowtie2 not loaded, will load bowtie2/2.3.2 
+
+The following have been reloaded with a version change:
+  1) bowtie2/2.3.2 => bowtie2/2.3.4.3
+
+
+[2019-05-24 02:23:20] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:23:20] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:23:21] Checking for Bowtie index files (genome)..
+[2019-05-24 02:23:21] Checking for reference FASTA file
+[2019-05-24 02:23:21] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:23:21] Preparing reads
+	 left reads: min. length=50, max. length=101, 838728 kept reads (34 discarded)
+	right reads: min. length=50, max. length=101, 838729 kept reads (33 discarded)
+[2019-05-24 02:24:00] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:24:58] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:25:03] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:25:08] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:25:14] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:25:21] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:26:17] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:26:22] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:26:28] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:26:33] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:26:40] Searching for junctions via segment mapping
+[2019-05-24 02:27:06] Retrieving sequences for splices
+[2019-05-24 02:27:07] Indexing splices
+Building a SMALL index
+[2019-05-24 02:27:08] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:27:11] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:27:14] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:27:16] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:27:19] Joining segment hits
+[2019-05-24 02:27:30] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:27:34] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:27:37] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:27:39] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:27:42] Joining segment hits
+[2019-05-24 02:27:52] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 02:29:03] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6040092_scaffold_11.1/align_summary.txt
+[2019-05-24 02:29:03] Run complete: 00:05:42 elapsed
+
+[2019-05-24 02:29:03] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:29:03] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:29:03] Checking for Bowtie index files (genome)..
+[2019-05-24 02:29:03] Checking for reference FASTA file
+[2019-05-24 02:29:03] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:29:03] Preparing reads
+	 left reads: min. length=50, max. length=101, 741524 kept reads (19 discarded)
+	right reads: min. length=50, max. length=101, 741506 kept reads (37 discarded)
+[2019-05-24 02:29:33] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:30:15] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:30:19] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:30:23] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:30:27] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:30:31] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:31:14] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:31:17] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:31:21] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:31:25] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:31:30] Searching for junctions via segment mapping
+[2019-05-24 02:31:47] Retrieving sequences for splices
+[2019-05-24 02:31:48] Indexing splices
+Building a SMALL index
+[2019-05-24 02:31:49] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:31:51] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:31:53] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:31:55] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:31:57] Joining segment hits
+[2019-05-24 02:32:04] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:32:07] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:32:08] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:32:10] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:32:12] Joining segment hits
+[2019-05-24 02:32:19] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 02:33:18] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6040093_scaffold_11.1/align_summary.txt
+[2019-05-24 02:33:18] Run complete: 00:04:14 elapsed
+
+[2019-05-24 02:33:18] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:33:18] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:33:18] Checking for Bowtie index files (genome)..
+[2019-05-24 02:33:18] Checking for reference FASTA file
+[2019-05-24 02:33:18] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:33:18] Preparing reads
+	 left reads: min. length=50, max. length=101, 1407721 kept reads (41 discarded)
+	right reads: min. length=50, max. length=101, 1407721 kept reads (41 discarded)
+[2019-05-24 02:34:08] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:35:12] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:35:16] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:35:21] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:35:26] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:35:31] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:36:35] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:36:41] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:36:47] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:36:54] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:37:01] Searching for junctions via segment mapping
+[2019-05-24 02:37:29] Retrieving sequences for splices
+[2019-05-24 02:37:30] Indexing splices
+Building a SMALL index
+[2019-05-24 02:37:31] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:37:34] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:37:37] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:37:40] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:37:43] Joining segment hits
+[2019-05-24 02:37:54] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:37:58] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:38:01] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:38:04] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:38:08] Joining segment hits
+[2019-05-24 02:38:19] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 02:40:16] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6040094_scaffold_11.1/align_summary.txt
+[2019-05-24 02:40:16] Run complete: 00:06:58 elapsed
+
+[2019-05-24 02:40:16] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:40:16] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:40:16] Checking for Bowtie index files (genome)..
+[2019-05-24 02:40:16] Checking for reference FASTA file
+[2019-05-24 02:40:16] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:40:16] Preparing reads
+	 left reads: min. length=50, max. length=101, 1168570 kept reads (28 discarded)
+	right reads: min. length=50, max. length=101, 1168564 kept reads (34 discarded)
+[2019-05-24 02:41:10] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:42:29] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:42:36] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:42:44] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:42:51] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:43:00] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:44:17] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:44:24] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:44:31] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:44:39] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:44:48] Searching for junctions via segment mapping
+[2019-05-24 02:45:18] Retrieving sequences for splices
+[2019-05-24 02:45:19] Indexing splices
+Building a SMALL index
+[2019-05-24 02:45:20] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:45:24] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:45:28] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:45:32] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:45:36] Joining segment hits
+[2019-05-24 02:45:49] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:45:54] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:45:58] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:46:02] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:46:06] Joining segment hits
+[2019-05-24 02:46:19] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 02:48:04] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6040096_scaffold_11.1/align_summary.txt
+[2019-05-24 02:48:04] Run complete: 00:07:48 elapsed
+
+[2019-05-24 02:48:04] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:48:04] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:48:05] Checking for Bowtie index files (genome)..
+[2019-05-24 02:48:05] Checking for reference FASTA file
+[2019-05-24 02:48:05] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:48:05] Preparing reads
+	 left reads: min. length=50, max. length=101, 507696 kept reads (23 discarded)
+	right reads: min. length=50, max. length=101, 507719 kept reads (0 discarded)
+[2019-05-24 02:48:28] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:49:07] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:49:12] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:49:16] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:49:21] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:49:27] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:50:03] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 02:50:07] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 02:50:11] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 02:50:15] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 02:50:21] Searching for junctions via segment mapping
+[2019-05-24 02:50:39] Retrieving sequences for splices
+[2019-05-24 02:50:40] Indexing splices
+Building a SMALL index
+[2019-05-24 02:50:41] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:50:44] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:50:46] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:50:48] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:50:51] Joining segment hits
+[2019-05-24 02:50:59] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 02:51:02] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 02:51:04] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 02:51:06] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 02:51:09] Joining segment hits
+[2019-05-24 02:51:17] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 02:52:05] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6040097_scaffold_11.1/align_summary.txt
+[2019-05-24 02:52:05] Run complete: 00:04:00 elapsed
+
+[2019-05-24 02:52:05] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 02:52:05] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 02:52:05] Checking for Bowtie index files (genome)..
+[2019-05-24 02:52:05] Checking for reference FASTA file
+[2019-05-24 02:52:05] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 02:52:05] Preparing reads
+	 left reads: min. length=50, max. length=126, 1248025 kept reads (89 discarded)
+	right reads: min. length=50, max. length=126, 1247910 kept reads (204 discarded)
+[2019-05-24 02:53:04] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:54:43] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/5)
+[2019-05-24 02:54:51] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/5)
+[2019-05-24 02:55:01] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/5)
+[2019-05-24 02:55:10] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/5)
+[2019-05-24 02:55:19] Mapping left_kept_reads_seg5 to genome scaffold-11_from_paper with Bowtie2 (5/5)
+[2019-05-24 02:55:31] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 02:57:20] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/5)
+[2019-05-24 02:57:29] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/5)
+[2019-05-24 02:57:39] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/5)
+[2019-05-24 02:57:49] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/5)
+[2019-05-24 02:57:59] Mapping right_kept_reads_seg5 to genome scaffold-11_from_paper with Bowtie2 (5/5)
+[2019-05-24 02:58:11] Searching for junctions via segment mapping
+[2019-05-24 02:58:47] Retrieving sequences for splices
+[2019-05-24 02:58:48] Indexing splices
+Building a SMALL index
+[2019-05-24 02:58:49] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2019-05-24 02:58:56] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2019-05-24 02:59:02] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2019-05-24 02:59:09] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2019-05-24 02:59:16] Mapping left_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2019-05-24 02:59:22] Joining segment hits
+[2019-05-24 02:59:46] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2019-05-24 02:59:53] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2019-05-24 02:59:59] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2019-05-24 03:00:06] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2019-05-24 03:00:14] Mapping right_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2019-05-24 03:00:21] Joining segment hits
+[2019-05-24 03:00:44] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 03:02:43] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6156066_scaffold_11.1/align_summary.txt
+[2019-05-24 03:02:43] Run complete: 00:10:38 elapsed
+
+[2019-05-24 03:02:44] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 03:02:44] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 03:02:44] Checking for Bowtie index files (genome)..
+[2019-05-24 03:02:44] Checking for reference FASTA file
+[2019-05-24 03:02:44] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 03:02:44] Preparing reads
+	 left reads: min. length=50, max. length=101, 569694 kept reads (7 discarded)
+	right reads: min. length=50, max. length=101, 569693 kept reads (8 discarded)
+[2019-05-24 03:03:06] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 03:03:44] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 03:03:48] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 03:03:52] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 03:03:55] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 03:04:00] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 03:04:32] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/4)
+[2019-05-24 03:04:36] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/4)
+[2019-05-24 03:04:40] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/4)
+[2019-05-24 03:04:44] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/4)
+[2019-05-24 03:04:48] Searching for junctions via segment mapping
+[2019-05-24 03:05:05] Retrieving sequences for splices
+[2019-05-24 03:05:06] Indexing splices
+Building a SMALL index
+[2019-05-24 03:05:07] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 03:05:09] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 03:05:11] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 03:05:14] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 03:05:16] Joining segment hits
+[2019-05-24 03:05:24] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-05-24 03:05:27] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-05-24 03:05:30] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-05-24 03:05:32] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-05-24 03:05:35] Joining segment hits
+[2019-05-24 03:05:43] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 03:06:26] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6156067_scaffold_11.1/align_summary.txt
+[2019-05-24 03:06:26] Run complete: 00:03:42 elapsed
+
+[2019-05-24 03:06:26] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-24 03:06:26] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-24 03:06:26] Checking for Bowtie index files (genome)..
+[2019-05-24 03:06:26] Checking for reference FASTA file
+[2019-05-24 03:06:26] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+[2019-05-24 03:06:26] Preparing reads
+	 left reads: min. length=50, max. length=126, 802405 kept reads (111 discarded)
+	right reads: min. length=50, max. length=126, 802508 kept reads (8 discarded)
+[2019-05-24 03:07:06] Mapping left_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 03:08:09] Mapping left_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/5)
+[2019-05-24 03:08:14] Mapping left_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/5)
+[2019-05-24 03:08:19] Mapping left_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/5)
+[2019-05-24 03:08:24] Mapping left_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/5)
+[2019-05-24 03:08:30] Mapping left_kept_reads_seg5 to genome scaffold-11_from_paper with Bowtie2 (5/5)
+[2019-05-24 03:08:36] Mapping right_kept_reads to genome scaffold-11_from_paper with Bowtie2 
+[2019-05-24 03:09:31] Mapping right_kept_reads_seg1 to genome scaffold-11_from_paper with Bowtie2 (1/5)
+[2019-05-24 03:09:35] Mapping right_kept_reads_seg2 to genome scaffold-11_from_paper with Bowtie2 (2/5)
+[2019-05-24 03:09:40] Mapping right_kept_reads_seg3 to genome scaffold-11_from_paper with Bowtie2 (3/5)
+[2019-05-24 03:09:46] Mapping right_kept_reads_seg4 to genome scaffold-11_from_paper with Bowtie2 (4/5)
+[2019-05-24 03:09:50] Mapping right_kept_reads_seg5 to genome scaffold-11_from_paper with Bowtie2 (5/5)
+[2019-05-24 03:09:56] Searching for junctions via segment mapping
+[2019-05-24 03:10:16] Retrieving sequences for splices
+[2019-05-24 03:10:17] Indexing splices
+Building a SMALL index
+[2019-05-24 03:10:18] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2019-05-24 03:10:21] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2019-05-24 03:10:24] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2019-05-24 03:10:27] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2019-05-24 03:10:29] Mapping left_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2019-05-24 03:10:32] Joining segment hits
+[2019-05-24 03:10:43] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2019-05-24 03:10:46] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2019-05-24 03:10:49] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2019-05-24 03:10:51] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2019-05-24 03:10:53] Mapping right_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2019-05-24 03:10:56] Joining segment hits
+[2019-05-24 03:11:05] Reporting output tracks
+-----------------------------------------------
+[2019-05-24 03:12:24] A summary of the alignment counts can be found in /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_SRR6156069_scaffold_11.1/align_summary.txt
+[2019-05-24 03:12:24] Run complete: 00:05:58 elapsed

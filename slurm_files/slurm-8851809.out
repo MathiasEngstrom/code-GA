@@ -1,0 +1,12 @@
+GeneMark/4.33-es_Perl5.24.1 : A recent key file is needed to use this software
+and it must exist in your home directory. If you know you 
+GeneMark/4.33-es_Perl5.24.1 : already have this key file, ignore this message.
+If you need the key file, use this command: 
+GeneMark/4.33-es_Perl5.24.1 : cp -v
+/sw/apps/bioinfo/GeneMark/4.33-es/rackham/gm_key $HOME/.gm_key 
+If MPI support is desired, load maker/3.01.2-beta-mpi instead 
+STATUS: Parsing control files...
+ERROR: The HMM file[s] provided for snaphmm do not exist:
+	/home/maen5548/genome-analysis-2019/analysis/maker2annotation/scaffold-11_pilon_corrected_2019-04-11.maker.output/scaffold-11_pilon_corrected_2019-04-11.hmm/scaffold-11_pilon_corrected_2019-04-11.hmm
+
+--> rank=NA, hostname=r365.uppmax.uu.se

@@ -1,0 +1,18 @@
+bowtie not loaded, will load bowtie 
+bowtie2 not loaded, will load bowtie2/2.3.2 
+
+The following have been reloaded with a version change:
+  1) bowtie2/2.3.2 => bowtie2/2.3.4.3
+
+
+[2019-05-23 16:22:45] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-05-23 16:22:45] Checking for Bowtie
+		  Bowtie version:	 2.3.4.3
+[2019-05-23 16:22:45] Checking for Bowtie index files (genome)..
+[2019-05-23 16:22:45] Checking for reference FASTA file
+	Warning: Could not find FASTA file /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper.fa
+[2019-05-23 16:22:45] Reconstituting reference FASTA file from Bowtie index
+  Executing: /sw/apps/bioinfo/bowtie2/2.3.4.3/rackham/bin/bowtie2-inspect /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper > /home/maen5548/genome-analysis-2019/data/derived-data/top_hat_transcript_alignment/tophat_out_*_10.1/tmp/scaffold-11_from_paper.fa
+[2019-05-23 16:22:46] Generating SAM header for /home/maen5548/genome-analysis-2019/data/derived-data/bowtie_index/scaffold-11_from_paper
+Error: could not open pipe gzip -cd < /home/maen5548/genome_analysis/data/raw_data/transcriptome/trimmed/*_10.1.fastq.gz

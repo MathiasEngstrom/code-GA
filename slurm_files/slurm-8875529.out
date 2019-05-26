@@ -1,0 +1,1006 @@
+GeneMark/4.33-es_Perl5.24.1 : A recent key file is needed to use this software
+and it must exist in your home directory. If you know you 
+GeneMark/4.33-es_Perl5.24.1 : already have this key file, ignore this message.
+If you need the key file, use this command: 
+GeneMark/4.33-es_Perl5.24.1 : cp -v
+/sw/apps/bioinfo/GeneMark/4.33-es/rackham/gm_key $HOME/.gm_key 
+If MPI support is desired, load maker/3.01.2-beta-mpi instead 
+Splitting training file into 8 buckets...
+Reading in the meta parameters used for optimization from /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/generic/generic_metapars.cfg...
+Reading in the starting meta parameters from /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+starting accuracy: 0.8442, 0.8914, 0.4859, 0.5360, 0.0000, 0.0000, -1.00, -1.00, starting target: 0.5673
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.5436	0.5501	0.5646	0.5673
+improving parameter /Constant/dss_start curently set to 2
+1-3
+/Constant/dss_start: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	3
+targets 0.5600	0.5673	0.5625
+improving parameter /Constant/ass_start curently set to 3
+1-3
+/Constant/ass_start: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8628, 0.8890, 0.5150, 0.5467, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5777
+changing /Constant/ass_start to 1
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	43
+/IntronModel/d	360
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.5777	0.5753	0.5673
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8621, 0.8900, 0.5200, 0.5525, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5799
+changing /Constant/ass_end to 1
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	43
+/IntronModel/d	360
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3	4
+targets 0.5711	0.5799	0.5777	0.5776	0.5671
+/Constant/ass_end: checking values 1	2
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2
+targets 0.5799	0.5777
+improving parameter /Constant/ass_upwindow_size curently set to 43
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8860, 0.8844, 0.5449, 0.5539, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5879
+changing /Constant/ass_upwindow_size to 13
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	360
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	13	25	37	50
+targets 0.5773	0.5879	0.5872	0.5811	0.5746
+/Constant/ass_upwindow_size: checking values 2	7	13	19	25
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  2	7	13	19	25
+targets 0.5818	0.5847	0.5879	0.5858	0.5872
+improving parameter /IntronModel/d curently set to 360
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8854, 0.8870, 0.5438, 0.5595, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5891
+changing /IntronModel/d to 525
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	525
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8820, 0.8876, 0.5425, 0.5633, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5892
+changing /IntronModel/d to 737
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	737
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8779, 0.8901, 0.5404, 0.5697, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5898
+changing /IntronModel/d to 950
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+values  100	312	525	737	950
+targets 0.5752	0.5870	0.5891	0.5892	0.5898
+/IntronModel/d: checking values 738	791	844	897	950
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  738	791	844	897	950
+targets 0.5892	0.5895	0.5897	0.5895	0.5898
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8704, 0.8981, 0.5406, 0.5812, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5922
+changing /IntronModel/ass_motif_memory to 0
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	0
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8820, 0.8916, 0.5640, 0.5893, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5993
+changing /IntronModel/ass_motif_memory to 1
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	1
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8844, 0.8966, 0.5605, 0.5886, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5995
+changing /IntronModel/ass_motif_memory to 2
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.5922	0.5993	0.5995	0.5898
+/IntronModel/ass_motif_memory: checking values 2
+retrieve accuracy from previous computation
+values  2
+targets 0.5995
+improving parameter /IntronModel/ass_motif_radius curently set to 0
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3	4
+targets 0.5995	0.5954	0.5945	0.5945	0.5946
+improving parameter /ExonModel/tis_motif_memory curently set to 3
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.5995	0.5995	0.5995	0.5995
+improving parameter /ExonModel/tis_motif_radius curently set to 1
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3
+targets 0.5995	0.5995	0.5995	0.5995
+improving parameter /Constant/trans_init_window curently set to 18
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8844, 0.8966, 0.5605, 0.5892, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5997
+changing /Constant/trans_init_window to 12
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	12
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+values  0	6	12	18	25
+targets 0.5995	0.5995	0.5997	0.5995	0.5995
+/Constant/trans_init_window: checking values 6	9	12	15	18
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  6	9	12	15	18
+targets 0.5995	0.5997	0.5997	0.5996	0.5995
+improving parameter /Constant/init_coding_len curently set to 9
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	4	9	13	18
+targets 0.5986	0.5990	0.5997	0.5977	0.5984
+improving parameter /ExonModel/patpseudocount curently set to 5.3
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8864, 0.8939, 0.5634, 0.5881, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5999
+changing /ExonModel/patpseudocount to 1.625
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	12
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	1.625
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	1.625	2.75	3.875	5
+targets 0.5982	0.5999	0.5990	0.5988	0.5997
+/ExonModel/patpseudocount: checking values 0.5	1.0625	1.625	2.1875	2.75
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0.5	1.0625	1.625	2.1875	2.75
+targets 0.5982	0.5997	0.5999	0.5993	0.5990
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	2	5	7	10
+targets 0.5999	0.5999	0.5999	0.5999	0.5999
+improving parameter /ExonModel/etorder curently set to 3
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.5999	0.5999	0.5999	0.5999
+improving parameter /Constant/intterm_coding_len curently set to 10
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8918, 0.8972, 0.5733, 0.5911, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.6038
+changing /Constant/intterm_coding_len to 0
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	12
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	1.625
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	0
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	3	6	9	13
+targets 0.6038	0.6012	0.5996	0.6020	0.6006
+/Constant/intterm_coding_len: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.6026	0.6016	0.6012
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.6
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.6033	0.6036	0.6031	0.6034	0.6038
+improving parameter /ExonModel/minwindowcount curently set to 8
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	4	8	11	15
+targets 0.6028	0.6030	0.6038	0.6035	0.6032
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	2.125	3.75	5.375	7
+targets 0.6038	0.6038	0.6038	0.6038	0.6038
+improving parameter /IntronModel/patpseudocount curently set to 0.5
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	2.125	3.75	5.375	7
+targets 0.6038	0.6034	0.6034	0.6034	0.6029
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.2
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.6012	0.6032	0.6027	0.6022	0.6022
+improving parameter /IntronModel/minwindowcount curently set to 2
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	4	6	8
+targets 0.6037	0.6038	0.6032	0.6021	0.6026
+improving parameter /IntronModel/asspseudocount curently set to 0.01
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.6038	0.6038	0.6038	0.6037	0.6037
+improving parameter /IntronModel/dsspseudocount curently set to 0.0005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.6038	0.6015	0.6006	0.5989	0.5977
+improving parameter /IntronModel/dssneighborfactor curently set to 0.0045
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.5924	0.6020	0.6037	0.6031	0.6034
+improving parameter /ExonModel/minPatSum curently set to 144
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  100	225	350	475	600
+targets 0.6004	0.6008	0.6023	0.6014	0.6012
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.6038	0.6038	0.6038	0.6038	0.6034
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	3	4	5
+targets 0.6038	0.6012	0.5990	0.5984	0.5997
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.5794	0.5848	0.5991	0.6038
+improving parameter /Constant/dss_start curently set to 2
+1-3
+/Constant/dss_start: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	3
+targets 0.5930	0.6038	0.5994
+improving parameter /Constant/ass_start curently set to 1
+1-3
+/Constant/ass_start: checking values 1	2	3
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	3
+targets 0.6038	0.6018	0.5962
+improving parameter /Constant/ass_end curently set to 1
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3	4
+targets 0.5957	0.6038	0.6010	0.5982	0.5916
+improving parameter /Constant/ass_upwindow_size curently set to 13
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	13	25	37	50
+targets 0.5835	0.6038	0.6005	0.6001	0.5984
+improving parameter /IntronModel/d curently set to 950
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  100	312	525	737	950
+targets 0.5862	0.5973	0.5998	0.6015	0.6038
+improving parameter /IntronModel/ass_motif_memory curently set to 2
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3
+targets 0.5963	0.6007	0.6038	0.5918
+improving parameter /IntronModel/ass_motif_radius curently set to 0
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3	4
+targets 0.6038	0.5975	0.5981	0.5996	0.5989
+improving parameter /ExonModel/tis_motif_memory curently set to 3
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.6038	0.6038	0.6038	0.6038
+improving parameter /ExonModel/tis_motif_radius curently set to 1
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	1	2	3
+targets 0.6038	0.6038	0.6038	0.6038
+improving parameter /Constant/trans_init_window curently set to 12
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	6	12	18	25
+targets 0.6036	0.6036	0.6038	0.6037	0.6037
+improving parameter /Constant/init_coding_len curently set to 9
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8924, 0.8967, 0.5745, 0.5909, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.6040
+changing /Constant/init_coding_len to 13
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	12
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	1.625
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	0
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+values  0	4	9	13	18
+targets 0.6028	0.6034	0.6038	0.6040	0.6033
+/Constant/init_coding_len: checking values 9	11	13	15	17
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  9	11	13	15	17
+targets 0.6038	0.6037	0.6040	0.6033	0.6037
+improving parameter /ExonModel/patpseudocount curently set to 1.625
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	1.625	2.75	3.875	5
+targets 0.6034	0.6040	0.6032	0.6032	0.6028
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	2	5	7	10
+targets 0.6040	0.6040	0.6040	0.6040	0.6040
+improving parameter /ExonModel/etorder curently set to 3
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.6040	0.6040	0.6040	0.6040
+improving parameter /Constant/intterm_coding_len curently set to 0
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0	3	6	9	13
+targets 0.6040	0.6004	0.5985	0.6007	0.6006
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.6
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.6033	0.6036	0.6034	0.6035	0.6040
+improving parameter /ExonModel/minwindowcount curently set to 8
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	4	8	11	15
+targets 0.6032	0.6031	0.6040	0.6031	0.6026
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	2.125	3.75	5.375	7
+targets 0.6040	0.6040	0.6040	0.6040	0.6040
+improving parameter /IntronModel/patpseudocount curently set to 0.5
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8919, 0.8970, 0.5745, 0.5917, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.6041
+changing /IntronModel/patpseudocount to 2.125
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	1
+/Constant/ass_upwindow_size	13
+/IntronModel/d	950
+/IntronModel/ass_motif_memory	2
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	12
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	1.625
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	0
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	2.125
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.5	2.125	3.75	5.375	7
+targets 0.6040	0.6041	0.6036	0.6032	0.6029
+/IntronModel/patpseudocount: checking values 0.5	1.3125	2.125	2.9375	3.75
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  0.5	1.3125	2.125	2.9375	3.75
+targets 0.6040	0.6041	0.6041	0.6036	0.6036
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.2
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.6020	0.6028	0.6022	0.6023	0.6009
+improving parameter /IntronModel/minwindowcount curently set to 2
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	4	6	8
+targets 0.6041	0.6041	0.6035	0.6029	0.6027
+improving parameter /IntronModel/asspseudocount curently set to 0.01
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.6041	0.6041	0.6041	0.6041	0.6041
+improving parameter /IntronModel/dsspseudocount curently set to 0.0005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 slurmstepd: error: *** JOB 8875529 ON r331 CANCELLED AT 2019-05-22T18:14:25 DUE TO TIME LIMIT ***

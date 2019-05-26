@@ -1,0 +1,72 @@
+GeneMark/4.33-es_Perl5.24.1 : A recent key file is needed to use this software
+and it must exist in your home directory. If you know you 
+GeneMark/4.33-es_Perl5.24.1 : already have this key file, ignore this message.
+If you need the key file, use this command: 
+GeneMark/4.33-es_Perl5.24.1 : cp -v
+/sw/apps/bioinfo/GeneMark/4.33-es/rackham/gm_key $HOME/.gm_key 
+If MPI support is desired, load maker/3.01.2-beta-mpi instead 
+Splitting training file into 8 buckets...
+Reading in the meta parameters used for optimization from /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/generic/generic_metapars.cfg...
+Reading in the starting meta parameters from /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+starting accuracy: 0.8442, 0.8914, 0.4859, 0.5360, 0.0000, 0.0000, -1.00, -1.00, starting target: 0.5673
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.5436	0.5501	0.5646	0.5673
+improving parameter /Constant/dss_start curently set to 2
+1-3
+/Constant/dss_start: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+bucket 1 2 3 4 5 6 7 8 
+values  1	2	3
+targets 0.5600	0.5673	0.5625
+improving parameter /Constant/ass_start curently set to 3
+1-3
+/Constant/ass_start: checking values 1	2	3
+bucket 1 2 3 4 5 6 7 8 
+found improvement: 0.8628, 0.8890, 0.5150, 0.5467, 0.0000, 0.0000, -1.00, -1.00, optimal target: 0.5777
+changing /Constant/ass_start to 1
+/Constant/dss_end	4
+/Constant/dss_start	2
+/Constant/ass_start	1
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	43
+/IntronModel/d	360
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	0
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	1
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.3
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	3
+/Constant/intterm_coding_len	10
+/ExonModel/slope_of_bandwidth	0.6
+/ExonModel/minwindowcount	8
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	0.5
+/IntronModel/slope_of_bandwidth	0.2
+/IntronModel/minwindowcount	2
+/IntronModel/asspseudocount	0.01
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.0045
+/ExonModel/minPatSum	144
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /home/maen5548/genome-analysis-2019/analysis/maker2annotation/config/species/arabidopsis/arabidopsis_parameters.cfg...
+bucket 1 2 3 4 5 6 7 8 
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.5777	0.5753	0.5673
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 1 2 slurmstepd: error: *** JOB 8900104 ON r446 CANCELLED AT 2019-05-23T14:10:39 ***
